@@ -54,6 +54,7 @@ public class CharacterTests : BaseTest
     }
 
     [Test]
+    [AllureDescription("Verify someting")]
     public async Task GetCharacter_MortySmith_ReturnsCorrectData()
     {
         // Arrange
